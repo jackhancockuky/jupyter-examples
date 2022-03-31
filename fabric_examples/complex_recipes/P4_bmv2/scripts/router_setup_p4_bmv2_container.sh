@@ -1,10 +1,15 @@
 #!/bin/bash
 
 #{
-port1_iface=$1
-port2_iface=$2
-port3_iface=$3
-ip_type=$4
+#port1_iface=$1
+#port2_iface=$2
+#port3_iface=$3
+#ip_type=$4
+
+ip_type=$1
+#args="${@:2:2}"
+ifaces="${@:2}"
+
 
 # export http_proxy=socks5h://localhost:4567
 # export https_proxy=socks5h://localhost:4567
@@ -27,7 +32,7 @@ echo NSPID $NSPID
 
 switch_interface_args=""
 swtich_port=0
-for iface in $@; do
+for iface in $ifaces; do
   ip link set dev $iface promisc on
   ip link set $iface netns $NSPID
   docker exec fabric_p4 ip link set dev $iface up
