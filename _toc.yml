@@ -8,7 +8,83 @@ parts:
     - file: fabric_examples/fablib_api/hello_fabric/hello_fabric.ipynb
       title: Hello, FABRIC Example
 
+  - caption: Sites and Available Resources
+    chapters:
+    - file: fabric_examples/fablib_api/get_available_resources/get_available_resources.ipynb
+      title: Find available resources.
+
+  - caption: Managing Slices
+    chapters:
+    - file: fabric_examples/fablib_api/create_slice/create_slice.ipynb
+      title: Creating Slices
+    - file: fabric_examples/fablib_api/delete_slice/delete_slice.ipynb
+      title: Deleting Slices
+    - file: fabric_examples/fablib_api/get_slice/get_slice.ipynb
+      title: Getting Existing Slices
+    - file: fabric_examples/fablib_api/renew_slice/renew_slice.ipynb
+      title: Renewing Slice Reservations
+
+  - caption: Compute Nodes
+    chapters:
+    - file: fabric_examples/fablib_api/customizing_nodes/customizing_nodes.ipynb
+      title: Customizing Compute Nodes
+    - file: fabric_examples/fablib_api/get_nodes/get_nodes.ipynb
+      title: Getting Existing Compute Nodes
+    - file: fabric_examples/fablib_api/ssh_to_nodes/ssh_to_nodes.ipynb
+      title: Accessing Nodes with SSH
+
+  - caption: Storage Devices
+    chapters:
+    - file: fabric_examples/fablib_api/basic_nvme_devices/basic_nvme_devices.ipynb
+      title: NVMe Devices
+    - file: fabric_examples/fablib_api/bbenchmarking_storage/benchmarking_storage.ipynb
+      title: Benchmarking NVMe Devices
+
+  - caption: GPU Devices
+    chapters:
+    - file: fabric_examples/fablib_api/basic_gpu_devices/basic_gpu_devices.ipynb
+      title: GPU Devices
+
+  - caption: Networking
+    chapters:
+    - file: fabric_examples/fablib_api/create_l3network_fabnet_ipv4/create_l3network_fabnet_ipv4.ipynb
+      title: FABNet IPv4 (Layer 3)
+    - file: fabric_examples/fablib_api/create_l3network_fabnet_ipv6/create_l3network_fabnet_ipv6.ipynb
+      title: FABNet IPv6 (Layer 3)
+    - file: fabric_examples/fablib_api/create_l2network_basic/create_l2network_basic.ipynb
+      title: Local Ethernet (Layer 2)
+    - file: fabric_examples/fablib_api/create_l2network_wide_area/create_l2network_wide_area.ipynb
+      title: Wide Area Link (Layer 2)
+    - file: fabric_examples/fablib_api/facility_port/facility_port.ipynb
+      title: Facility Ports
+
+  - caption: Experiment Configuration Tips and Tricks
+    chapters:
+    - file: fabric_examples/fablib_api/upload_and_execute/upload_and_execute.ipynb
+      title: Upload and Execute Scripts
+    - file: fabric_examples/fablib_api/accessing_ipv4_services_from_ipv6_nodes/accessing_ipv4_services_from_ipv6_nodes.ipynb
+      title: Accessing IPv4 Sites from IPv6 Nodes
+    - file: fabric_examples/fablib_api/save_and_load/save_and_load.ipynb
+      title: Save and Load Topologies
+    - file: fabric_examples/fablib_api/parallel_config/parallel_config.ipynb
+      title: Parallel Experiment Configuration
+
   - caption: Complex Recipes
     chapters:
+    - file: fabric_examples/complex_recipes/Chameleon_Facility_Port/Chameleon_Facility_Port.ipynb
+      title: Chameleon Facility Port
     - file: fabric_examples/complex_recipes/FRRouting/frr_ospf_triangle-load.ipynb
       title: FRRouting OSPF
+    - file: fabric_examples/complex_recipes/P4_bmv2/p4lang_tutorials.ipynb
+      title: P4Lang Tutorials using BMv2
+    - file: fabric_examples/complex_recipes/kubernetes/kubernetes_simple.ipynb
+      title: Kubernetes Cluster
+
+  - caption: Measurment Framework (MFlib)
+    chapters:
+    - file: fabric_examples/mflib/mflib_example_index.ipynb
+      title: Monitoring with MFLib Examples
+
+
+
+

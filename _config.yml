@@ -2,7 +2,7 @@ title :  FABlib Documentation
 author: FABRIC
 logo: 'fabric.png'
 
-only_build_toc_files: true
+only_build_toc_files: false
 
 # Short description about the book
 description: >-
