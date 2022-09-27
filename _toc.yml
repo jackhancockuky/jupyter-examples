@@ -1,0 +1,14 @@
+format: jb-book
+root: start_here.ipynb 
+parts:
+  - caption: Getting Started
+    chapters:
+    - file: fabric_examples/fablib_api/configure_environment/configure_environment.ipynb
+      title: Configure JupyterHub Environment
+    - file: fabric_examples/fablib_api/hello_fabric/hello_fabric.ipynb
+      title: Hello, FABRIC Example
+
+  - caption: Complex Recipes
+    chapters:
+    - file: fabric_examples/complex_recipes/FRRouting/frr_ospf_triangle-load.ipynb
+      title: FRRouting OSPF

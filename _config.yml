@@ -1,0 +1,40 @@
+title :  FABlib Documentation
+author: FABRIC
+logo: 'fabric.png'
+
+only_build_toc_files: true
+
+# Short description about the book
+description: >-
+  Documentation about FABLib and FABRIC.
+
+execute:
+  execute_notebooks           : cache
+
+# HTML-specific settings
+html:
+  home_page_in_navbar         : false
+
+# Interact link settings
+notebook_interface            : "jupyterhub"
+
+# Launch button settings
+repository:
+  url                         : https://github.com/fabric-testbed/jupyter-examples.git
+  path_to_book                : ""
+  branch                      : jupyter_book
+
+launch_buttons:
+  notebook_interface        : "jupyterlab"
+  jupyterhub_url: "https://jupyter.fabric-testbed.net"
+  text: "Launch of FABRIC JupyterHub"
+  binderhub_url: ""
+  #colab_url: "https://colab.research.google.com"
+
+# LaTeX settings
+bibtex_bibfiles:
+   - _bibliography/references.bib
+latex:
+  latex_engine                : "xelatex"
+  latex_documents:
+    targetname: book.tex
