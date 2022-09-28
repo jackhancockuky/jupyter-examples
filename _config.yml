@@ -20,7 +20,7 @@ notebook_interface            : "jupyterhub"
 
 # Launch button settings
 repository:
-  url                         : https://github.com/fabric-testbed/jupyter-examples
+  url                         : https://github.com/fabric-testbed/jupyter-examples.git
   path_to_book                : ""
   branch                      : jupyter_book
 
