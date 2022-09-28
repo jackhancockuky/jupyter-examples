@@ -10,6 +10,7 @@ description: >-
 
 execute:
   execute_notebooks           : cache
+  run_in_temp                 : true 
 
 # HTML-specific settings
 html:
