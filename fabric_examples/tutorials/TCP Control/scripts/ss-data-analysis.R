@@ -1,3 +1,5 @@
+#Written by Fraida Fund
+#Adapted for Fabric by Tristan Jordan
 library(ggplot2)
 dat <- read.csv("sender-ss.csv", header=FALSE)
 names(dat) <- c("ts", "sender", "retr", "retr.total", "cwnd", "ssthresh")

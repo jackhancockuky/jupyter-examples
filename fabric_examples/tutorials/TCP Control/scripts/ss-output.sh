@@ -1,3 +1,5 @@
+#Written by Fraida Fund
+#Adapted for Fabric by Tristan Jordan
 #!/bin/bash
 
 DST=$1
